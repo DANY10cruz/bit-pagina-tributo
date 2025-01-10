@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  background-color: black;
+}
+
+header,
+nav,
+footer {
+  width: 100%;
+}
+h1 {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+nav {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav:hover {
+  color: black;
+}
+
+nav a {
+  color: orange;
+}
+nav a:hover {
+  color: black;
+  background-color: white;
+}
+
+img {
+  width: 422px;
+  height: 422px;
+  border-radius: 10%;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+
+main,
+aside {
+  height: auto;
+  text-align: justify;
+  color: white;
+}
+
+header {
+  height: 100px;
+}
+
+main {
+  width: 25%;
+  margin-top: 20px;
+  color: white;
+}
+
+aside {
+  width: 75%;
+  font-size: 27px;
+  margin-top: 20px;
+  color: white;
+}
+
+.aside1,
+.aside2 {
+  width: 50%;
+  color: white;
+}
+
+.lista-ordenada {
+  padding-top: 10px;
+  color: white;
+}
+
+.video {
+  width: 20%;
+}
+.datos-curioso {
+  width: 80%;
+  color: white;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: orange;
+}
+
+h3:hover {
+  background-color: orange;
+  color: black;
+}
+footer {
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    background-color: brown;
+    display: none;
+  }
+}
